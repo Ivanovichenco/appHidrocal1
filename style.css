@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    height: 100vh;
+    width: 100vw; 
+    display: grid;
+    place-items: center;
+    background: linear-gradient(90deg, rgb(3, 102, 36) 0%, rgb(79, 119, 4) 28%, rgb(12, 93, 146) 56%, rgba(23,137,190,1) 78%, rgb(39, 142, 163) 100%);
+}
+
+.container {
+    
+    color: rgb(242, 248, 245);
+    text-align: center;
+    height: 100vh;
+    width: 380px;
+    background: radial-gradient(at center, rgba(109, 243, 214, 0.05), rgba(108, 245, 28, 0.5));
+    border-radius: 10px;
+    border: 3px solid lightblue;
+}
+.container h1 {
+   margin: 15px 25px 15px 40px;   
+   text-shadow: 1px 1px 2px black, 0 0 0.2em blue, 0 0 0.2em blue;
+   color: rgb(245, 245, 219);
+   font: 1.8em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+}
+
+input {
+    
+    color: rgb(102, 102, 207);
+    text-shadow: text-shadow: 1px 1px 2px black;
+    text-align: center;
+    height: 30px;
+    width: 200px;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 5px  solid lightcyan ;
+    box-shadow: 5px 5px 5px black;
+}
+.inpbox {
+  
+   place-items: center; 
+   color: rgb(121, 154, 190);
+   font: 1.5em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+}
+.button {
+    width: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: mediumaquamarine;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 5px 5px 5px black;
+}
+.container h2 {
+   margin: 10px 20px 10px 30px;   
+   
+   color: white;
+   font: 1.4em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+}
+input {
+    border-radius: 5px;
+}
+a {
+    color: aliceblue;
+}
+
+input .checkbox {
+    border: 0;
+    box-shadow: 0;
+    width: 15rem;
+    margin: 0;
+    padding: 0;
+}
+.container2 {
+    height: 60vh;
+}
+
+h4 {
+    color: aliceblue;
+    font: 1em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+}
+
+#Name {
+    width: 120px;
+}
+
+.fila {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.espacio {
+    height: 15px;
+}
+
+.espacio2 {
+    height: 30px;
+}
+
+.espacio3 {
+    height: 45px;
+}

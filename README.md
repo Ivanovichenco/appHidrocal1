@@ -1,2 +1,2 @@
 # appHidrocal1
-Aplicacion calculadora hidroponica
+Aplicacion calculadora hidroponica https://ivanovichenco.github.io/appHidrocal1/
